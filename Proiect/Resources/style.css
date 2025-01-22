@@ -587,19 +587,6 @@
   .timeline-item:nth-child(6) { animation-delay: 1.2s; }
   .timeline-item:nth-child(7) { animation-delay: 1.4s; }
 
-  /* Accessibility */
-
-  .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-  }
 
   /* Focus styles for accessibility */
   
@@ -607,7 +594,7 @@
     outline: 2px solid var(--accent-color);
     outline-offset: 2px;
   }
-
+  
   /* Dark mode */
   @media (prefers-color-scheme: dark) {
     :root {

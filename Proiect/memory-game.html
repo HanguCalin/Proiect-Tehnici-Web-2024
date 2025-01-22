@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Hangu Calin">
+        <meta name="description" content="Web page dedicated to FC Barcelona">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Resources/memory-game.css" type="text/css">
+        <link rel="icon" href="Resources/Photos/logo.jpg">
+        <title>FC Barcelona - Més que un club</title>
+    </head>
+
+
+    <body>
+
+        <header>
+            <div class="logo-container">
+                <img src="Resources/Photos/logo.jpg" alt="FC Barcelona Logo" class="logo">
+            </div>
+            <h1>FC Barcelona</h1>
+            <p>"Més que un club"</p>
+        </header>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#about-club">About the Club</a>
+                    <ul>
+                        <li><a href="#history">History</a></li>
+                        <li><a href="#values">Values</a></li>
+                    </ul>
+                </li>
+                <li><a href="#anthem">Anthem</a></li>
+                <li><a href="#trophies">Trophies</a></li>
+                <li><a href="#stadium">Camp Nou</a></li>
+                <li>
+                    <a href="team.html">Team</a>
+                    <ul>
+                        <li><a href="team.html">First Team</a></li>
+                        <li><a href="team.html#legends">Barça Legends</a></li>
+                    </ul>
+                </li>
+                <li><a href="memory-game.html">Card Game</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="game-board"></div>
+
+            <div id="controls">
+                <button id="restart">Restart Game</button>
+                <p>Time: <span id="timer">0</span>s</p>
+            </div>
+            
+            <section id="contact">
+                <h2>Contact</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send</button>
+                </form>
+            </section>
+
+            <section id="social">
+                <h2>FC Barcelona social media links</h2>
+                <div class="social-icons">
+                    <a href="https://x.com/FCBarcelona" class="icon">
+                        <img src="Resources/Photos/x_yellow.png" alt="Twitter">
+                    </a>
+                    <a href="https://www.instagram.com/fcbarcelona/" class="icon">
+                        <img src="Resources/Photos/instagram_yellow.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.tiktok.com/@fcbarcelona" class="icon">
+                        <img src="Resources/Photos/tiktok_yellow.png" alt="TikTok">
+                    </a>
+                    <a href="https://open.spotify.com/user/31gorrj76f2m3wczoifm6f6tbn3q?si=a20bf0c076684729&nd=1" class="icon">
+                        <img src="Resources/Photos/spotify_yellow.png" alt="Spotify">
+                    </a>
+                    <a href="https://www.youtube.com/user/fcbarcelona" class="icon">
+                        <img src="Resources/Photos/youtube_yellow.png" alt="Youtube">
+                    </a>
+                    <a href="https://www.facebook.com/fcbarcelona/" class="icon">
+                        <img src="Resources/Photos/facebook_yellow.png" alt="Facebook">
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FC Barcelona. All rights reserved.</p>
+            </div>
+        </footer>
+        
+
+        <script src="Resources/memory-game.js"></script>
+    </body>
+</html>
