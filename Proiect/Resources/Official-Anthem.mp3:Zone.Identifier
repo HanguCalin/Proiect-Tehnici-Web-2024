@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=about:client
+HostUrl=https://s3.amazonaws.com/fcbarcelona-static-files/ringtones/Official-Anthem.wav
